@@ -1916,7 +1916,7 @@ function is_blog_installed() {
 			if ( defined('WP_REPAIRING') )
 				return true;
 			// Die with a DB error.
-			$wpdb->error = sprintf( /*WP_I18N_NO_TABLES*/'One or more database tables are unavailable.  The database may need to be <a href="%s">repaired</a>.'/*/WP_I18N_NO_TABLES*/, 'maint/repair.php?referrer=is_blog_installed' );
+			$wpdb->error = sprintf( /*WP_I18N_NO_TABLES*/'利用できないデータベーステーブルがあります。データベースの<a href="%s">復元</a>が必要かもしれません。'/*/WP_I18N_NO_TABLES*/, 'maint/repair.php?referrer=is_blog_installed' );
 			dead_db();
 		}
 	}
@@ -3289,11 +3289,11 @@ function dead_db() {
 <html xmlns="http://www.w3.org/1999/xhtml" <?php if ( function_exists( 'language_attributes' ) ) language_attributes(); ?>>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Database Error</title>
+	<title>データベースエラー</title>
 
 </head>
 <body>
-	<h1>Error establishing a database connection</h1>
+	<h1>エラー: データベースに接続できません</h1>
 </body>
 </html>
 <?php

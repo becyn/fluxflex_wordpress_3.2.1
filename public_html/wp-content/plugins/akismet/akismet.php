@@ -5,7 +5,7 @@
 /*
 Plugin Name: Akismet
 Plugin URI: http://akismet.com/
-Description: Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from comment and trackback spam</strong>. It keeps your site protected from spam even while you sleep. To get started: 1) Click the "Activate" link to the left of this description, 2) <a href="http://akismet.com/get/?return=true">Sign up for an Akismet API key</a>, and 3) Go to your <a href="plugins.php?page=akismet-key-config">Akismet configuration</a> page, and save your API key.
+Description: 多くの人々に利用されている Akismet は、<strong>コメントやトラックバックのスパムからブログを守る</strong>おそらく世界最高の方法です。あなたが眠っている間でさえサイトは守られます。利用開始手順: 1) この説明の左にある "有効化" リンクをクリックします。 2) <a href="http://akismet.com/get/?return=true">Akismet API キーに登録します</a>。 3) <a href="plugins.php?page=akismet-key-config">Akismet 設定</a>ページへ行き、API キーを保存します。
 Version: 2.5.3
 Author: Automattic
 Author URI: http://automattic.com/wordpress-plugins/

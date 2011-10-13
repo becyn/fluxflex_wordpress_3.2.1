@@ -241,7 +241,7 @@ function populate_options() {
 	'ping_sites' => 'http://rpc.pingomatic.com/',
 	'advanced_edit' => 0,
 	'comment_max_links' => 2,
-	'gmt_offset' => date('Z') / 3600,
+	'gmt_offset' => 9,
 
 	// 1.5
 	'default_email_category' => 1,
@@ -251,7 +251,7 @@ function populate_options() {
 	'comment_whitelist' => 1,
 	'blacklist_keys' => '',
 	'comment_registration' => 0,
-	'rss_language' => 'en',
+	'rss_language' => 'ja',
 	'html_type' => 'text/html',
 
 	// 1.5.1
