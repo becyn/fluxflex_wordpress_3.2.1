@@ -13,4 +13,4 @@ public_html/wp-config.php   FLX_DB_HOST     DB_HOST
 
 [deploy]
 chmod o+r public_html/.htaccess
-chmod o+rwx -R http://wordpress0becyn.fluxflex.com/wp-content/
+chmod o+rwx -Rf http://wordpress0becyn.fluxflex.com/wp-content/
