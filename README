@@ -5,3 +5,7 @@ WordPress for FluxFlex
 github.com/becyn/fluxflex_wordpress_3.2.1
 
 Thank you.
+
+updated ---
+Nov, 15, 2011
+- added favicon setting.If you want to change hte favicon, please put the image for favicon renamed to favicon.ico on main directory of theme you use (/wp-content/themes/"theme you use"). For more information please see following site. http://becyn.fluxflex.com/?p=184
