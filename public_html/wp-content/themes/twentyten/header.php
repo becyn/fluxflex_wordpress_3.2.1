@@ -50,6 +50,7 @@
 	 */
 	wp_head();
 ?>
+<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
 </head>
 
 <body <?php body_class(); ?>>
